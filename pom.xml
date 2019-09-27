@@ -12,5 +12,8 @@
 	
 	<modules>
 		<module>nacos-spring-config-datasource</module>
+		<module>nacos-spring-config</module>
+		<module>nacos-spring-config-listener</module>
+		<module>nacos-spring-config-multi-data-ids</module>
 	</modules>
 </project>
