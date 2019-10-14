@@ -15,5 +15,7 @@
 		<module>nacos-spring-config</module>
 		<module>nacos-spring-config-listener</module>
 		<module>nacos-spring-config-multi-data-ids</module>
+		<module>nacos-spring-config-pojo</module>
+		<module>nacos-spring-discovery</module>
 	</modules>
 </project>
