@@ -17,5 +17,10 @@
 		<module>nacos-spring-config-multi-data-ids</module>
 		<module>nacos-spring-config-pojo</module>
 		<module>nacos-spring-discovery</module>
+		<module>nacos-spring-boot-config</module>
+		<module>nacos-spring-boot-config-mysql</module>
+		<module>nacos-spring-boot-discovery</module>
+		<module>nacos-spring-cloud-config</module>
+		<module>nacos-spring-cloud-config-multi-data-ids</module>
 	</modules>
 </project>
