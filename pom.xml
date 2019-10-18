@@ -22,5 +22,8 @@
 		<module>nacos-spring-boot-discovery</module>
 		<module>nacos-spring-cloud-config</module>
 		<module>nacos-spring-cloud-config-multi-data-ids</module>
+		<module>nacos-spring-cloud-provider</module>
+		<module>nacos-spring-cloud-consumer</module>
+		<module>nacos-sentinel</module>
 	</modules>
 </project>
