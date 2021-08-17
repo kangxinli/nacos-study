@@ -27,13 +27,13 @@ public class UserServiceImpl implements UserService {
 
     private final JdbcTemplate jdbcTemplate;
 
-    private final RedisTemplate redisTemplate;
+    private final RedisTemplate<String, Object> redisTemplate;
 
     @NacosValue(value = "${app.user.cache}", autoRefreshed = true)
     private boolean cache;
 
     @Autowired
-    public UserServiceImpl(JdbcTemplate jdbcTemplate, RedisTemplate redisTemplate) {
+    public UserServiceImpl(JdbcTemplate jdbcTemplate, RedisTemplate<String, Object> redisTemplate) {
         this.jdbcTemplate = jdbcTemplate;
         this.redisTemplate = redisTemplate;
     }
